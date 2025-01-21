@@ -1,4 +1,4 @@
-const convert = require('./convert')
+const convert = require('./converter')
 test('converts 100 INR to USD correctly', () => {
  expect(convert(100)).toBe('1.20');
 });
